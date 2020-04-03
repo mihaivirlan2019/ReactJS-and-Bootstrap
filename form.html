@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="css/style_form.css" type="text/css" rel="stylesheet">
+<title> Pagina Noua </title>
+</head>
+<body>
+<div id="wrapper">
+<form action="formdata.php" method="POST" name="form1">
+<fieldset>
+<legend>Date personale</legend>
+<p class="question"><label for="name">Numele (max 10 simb.): </label></p>
+<p><input type="text"  class="input" name="name" id="name" size="30" maxlength="10"></p>
+<p class="question"><label for="password">Parola (max 10 simb.): </label></p>
+<p><input type="password" class="input" name="password" id="password" size="30" maxlength="10"></p>
+</fieldset>
+<fieldset>
+<legend> Intrebari</legend>
+<p class="question">Faceti economie de timp?</p> 
+<p><label>Da<input type="radio" name="time" value="yes" checked></label><label>Nu<input type="radio" name="time" value="no"></label></p>
+<p class="question">Ce instrumente economie a timpului folositi?</p>
+<p>
+<label><input type="checkbox" name="Ada" disabled>Agenda</label>
+<label><input type="checkbox" name="Cr" checked>Cronometru</label>
+<label><input type="checkbox" name="IP">Instrumente personale</label>
+</p>
+
+<p class="question"><label for="sleep">Cite ore dormiti pe zi?</label></p>
+<p>
+<select name="sleep" id="sleep">
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option selected>8</option>
+<option>8+</option>
+</select>
+</p>
+</fieldset>
+<p class="question tp"><label for="text">descrieti instrumentele personale: </label></p>
+<p><textarea name="text cols="50" rows="6" id="text">text...</textarea></p>
+<p><input type="image" src="images/blueButton.jpg" name="imageButton"></p>
+</form>
+</div>
+</body>
+</html>

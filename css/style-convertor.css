@@ -1,0 +1,112 @@
+h1 {
+	color:#FF1A05;
+	text-align:center;
+	text-transform:uppercase;
+	
+	
+}
+
+
+
+/*
+
+body {
+	
+	font:12px Tahoma;
+	color:#333333;
+	padding:15px;
+	margin:0 auto;
+	width:1000px;
+	background-color:#ffffff;
+	outline:2px solid #D0FF00;
+	border:1px solid #cccccc;
+	}
+	
+p {
+	text-indent:30px;
+	text-align:justify;
+	}
+	
+#header{
+	text-align:center;
+	text-transform:uppercase;
+	padding:40px 20px;
+	margin:40px auto 10px auto;
+	width:550px;
+	background-color:#cc0000;
+	color:#FF1A05;
+	border:4px solid #FFDD00;
+	}
+
+.new2 {
+	font-style:italic;
+}
+
+.new3 {
+	font-weight:bold; 
+	text-decoration:line-through;
+}
+
+a {
+	text-decoration:none;
+	border-bottom:1px dotted #FF0A12;
+	}
+
+.new4 {
+	text-align:right;
+	}
+	
+ul {
+	list-style-image:url(../images/arrow.png);
+	}
+
+	
+.new6 {
+	color:#05FF54;  /* Verde 10p */
+	}
+	/*
+	
+#liSuper (
+	color:#0A60FF; /* Albastru  100p */
+)
+/*
+#mylist1li.new6 {
+	color:#800000; /* Cafeniu 111p */
+}
+
+/*
+table, td, th {
+border:1px solid #cccccc;
+text-align:center;
+}
+
+table {
+width:700px;
+border-collapse:collapse;
+margin:25px auto;
+
+}
+
+td, th {
+height:50px;
+padding:5px;
+vertical-align:middle;
+background-color:#ffffff;
+}
+
+th {
+background-image:url(../images/tablebg.jpg);
+}
+
+tr.blue td {
+background-color:#3AE2CE;
+}
+ 
+#myImg {
+float:right;
+border:none;
+margin:20px 0 20px 50px;
+background:none;
+}
+
+*/

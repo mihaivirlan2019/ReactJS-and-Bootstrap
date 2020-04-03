@@ -1,0 +1,28 @@
+body {
+	background-color:#C3C3C3;
+	background-image:url(../images/pattern.png);
+	}
+
+#main {
+width:800px;
+height:991px;	
+margin:0px auto;
+outline:0px solid #FFDD00;
+background-image:url(../images/bg_s.jpg);
+background-repeat:repeat;
+}
+
+#main h1 {
+text-align:center;
+outline:0px solid #cc0000;
+padding-top:182px;
+font:36px Verdana;
+background-image:url(../images/logo.png);
+background-repeat:no-repeat;
+background-position:134px 190px;
+}
+
+#wrapper {
+outline:0px solid #FFDD00;
+background: url(../images/tel.jpg) no-repeat fixed 0 120px;
+}
